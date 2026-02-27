@@ -1,0 +1,40 @@
+body {
+    background-image: url("fondo.jpg");
+}
+
+.cajah1 {
+ margin: 8px;
+ padding: 8px;
+ -style: solid;
+ border-width: 8px;
+ border-color: rgb(170, 255, 177);
+ border-left: 6px solid rgb(115, 211, 203);
+ background-color: rgb(104, 205, 245);
+ border-radius: 4px;
+ text-align: center;
+}
+.cajah2 {
+  background-color: aqua;  
+  text-align: center;
+  border-inline-end: 10px;
+  border-color: aqua;
+}
+.cajah3 {
+ margin: 8px;
+ padding: 8px;
+ -style: solid;
+ border-width: 8px;
+ border-color: rgb(115, 144, 163);
+ border-left: 6px solid rgb(117, 196, 192);
+ background-color: rgb(126, 162, 196);
+ border-radius: 4px;
+ text-align: justify;
+}
+
+.contenedor {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 25px;
+ text-align: center;
+}
